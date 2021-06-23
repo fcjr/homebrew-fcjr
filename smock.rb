@@ -5,28 +5,28 @@
 class Smock < Formula
   desc "Smock Image Editor"
   homepage "https://www.leftshift.com"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/fcjr/smock/releases/download/v0.0.1/smock_0.0.1_macOS_x86_64.tar.gz"
-      sha256 "89a461a05684a147fe1c503639f565f8901f30971bf0c49204e3fed92e3e3d9f"
+      url "https://github.com/fcjr/smock/releases/download/v0.0.2/smock_0.0.2_macOS_x86_64.tar.gz"
+      sha256 "a6862eec6487c3fd56a6863aaf5fef9dc785c5aa4621ed6cc80aa614ed3a09be"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/fcjr/smock/releases/download/v0.0.1/smock_0.0.1_macOS_arm64.tar.gz"
-      sha256 "5e48f1b32e4d17ac13351c836a5b125fe3bf43d59c12fdca3f08e4acb6f803d2"
+      url "https://github.com/fcjr/smock/releases/download/v0.0.2/smock_0.0.2_macOS_arm64.tar.gz"
+      sha256 "7e7dee30614a9a2d88add19664f441c3e4b20fef7d93e34ec295067536706c31"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/fcjr/smock/releases/download/v0.0.1/smock_0.0.1_linux_x86_64.tar.gz"
-      sha256 "7ce15ca315e8fb795edf07990f99251d17f792007e0e2f3554944b7ee7b22c20"
+      url "https://github.com/fcjr/smock/releases/download/v0.0.2/smock_0.0.2_linux_x86_64.tar.gz"
+      sha256 "f946f4d068c7914e43e99969e95158d986e37ad1f7c7017a7026fef7f88ee51e"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fcjr/smock/releases/download/v0.0.1/smock_0.0.1_linux_arm64.tar.gz"
-      sha256 "9fe93b6ec25e98b3dcb33ca363930a89c2e6d6d02f60d2e3a3afe2151ad07bb7"
+      url "https://github.com/fcjr/smock/releases/download/v0.0.2/smock_0.0.2_linux_arm64.tar.gz"
+      sha256 "804cff818acd13c3e64802026959c838dc6a973bb7e5cb099451993e9266731b"
     end
   end
 
