@@ -5,12 +5,12 @@
 class GitVibe < Formula
   desc "git-vibe is a git plugin that uses an llm to help with common git tasks"
   homepage "https://github.com/fcjr/git-vibe"
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.1/git-vibe_Darwin_x86_64.tar.gz"
-      sha256 "70f835b2d10128a45d3ff43c6728e300a9de6fd39c813d377a4c0e36149e8454"
+      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.2/git-vibe_Darwin_x86_64.tar.gz"
+      sha256 "1feeabb19501e6e0a2c22ea930f68ab2680665e3971f9bda633a999ee6a559af"
 
       def install
         bin.install "git-vibe"
@@ -21,8 +21,8 @@ class GitVibe < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.1/git-vibe_Darwin_arm64.tar.gz"
-      sha256 "41cc549e23f8b42ca05ee934fe38a8c9023b62a06c797dd894fcb4baad807058"
+      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.2/git-vibe_Darwin_arm64.tar.gz"
+      sha256 "b941510b00f2d8b5ecaaa36856ce3b519cd3757b8ee32f959b129d01721d8f10"
 
       def install
         bin.install "git-vibe"
@@ -36,8 +36,8 @@ class GitVibe < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.1/git-vibe_Linux_x86_64.tar.gz"
-      sha256 "3f7e6d9527aa6fd0c9dd5f8a70f1ed30dff5944e4bbfc6bd47849d23d5cfcff4"
+      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.2/git-vibe_Linux_x86_64.tar.gz"
+      sha256 "11feb01244072cfdec8421800989b2a7fb707ccf73b003b8c07b843479f44be9"
       def install
         bin.install "git-vibe"
         bash_completion.install "completions/git-vibe.bash" => "git-vibe"
@@ -47,8 +47,8 @@ class GitVibe < Formula
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.1/git-vibe_Linux_arm64.tar.gz"
-      sha256 "017806afac6ff372917eaec96b8fa73486d19795be6f81fbc5d870ebec1f526e"
+      url "https://github.com/fcjr/git-vibe/releases/download/v0.0.2/git-vibe_Linux_arm64.tar.gz"
+      sha256 "38bb0a35dba4aee679e545f3782d6f30a75f6b05fbf6a6d7bd55f9d7a5e85d36"
       def install
         bin.install "git-vibe"
         bash_completion.install "completions/git-vibe.bash" => "git-vibe"
