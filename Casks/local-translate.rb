@@ -1,8 +1,8 @@
 cask "local-translate" do
-  version "0.1.5"
+  version "0.1.9"
 
-  url "https://github.com/fcjr/local-translate/releases/download/app-v#{version}/Local.Translate_#{version}_aarch64.dmg"
-  sha256 "df9daa2da8c667eb75754e1ab6584d54e8c688b95f077f7b3560cbac8f8301fb"
+  url "https://github.com/fcjr/local-translate/releases/download/v#{version}/Local.Translate_#{version}_aarch64.dmg"
+  sha256 "739b12220a4d09e851d8d4ea49d5bc5ca8d7ada8c4149eefde08c00fd520ac68"
 
   name "Local Translate"
   desc "Privacy-first, offline desktop translation app"
@@ -16,7 +16,7 @@ cask "local-translate" do
   livecheck do
     url :url
     strategy :github_latest
-    regex(/^app[._-]v?(\d+(?:\.\d+)+)$/i)
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
   zap trash: [
