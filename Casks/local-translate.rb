@@ -1,8 +1,8 @@
 cask "local-translate" do
-  version "0.1.15"
+  version "0.1.16"
 
   url "https://github.com/fcjr/local-translate/releases/download/v#{version}/Local.Translate_#{version}_aarch64.dmg"
-  sha256 "a9f155e518612a5306e745ab99eabb9c2bf074e0fbd4ed9d67d3d9690eef6a32"
+  sha256 "6c4075092879623379f8328987be0c2533801242e8caeb960b329cd93bab7b99"
 
   name "Local Translate"
   desc "Privacy-first, offline desktop translation app"
