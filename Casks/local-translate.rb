@@ -1,12 +1,14 @@
 cask "local-translate" do
-  version "0.1.13"
+  version "0.1.14"
 
   url "https://github.com/fcjr/local-translate/releases/download/v#{version}/Local.Translate_#{version}_aarch64.dmg"
-  sha256 "20429ef48461412bc67cb30266b1220893368eae9c29e576048e3799485140dc"
+  sha256 "2078263121c712868b856200c73e522e031a3f2a0aa63b606974c1712a483cf2"
 
   name "Local Translate"
   desc "Privacy-first, offline desktop translation app"
   homepage "https://github.com/fcjr/local-translate"
+
+  auto_updates true
 
   depends_on macos: ">= :ventura"
   depends_on arch: :arm64
