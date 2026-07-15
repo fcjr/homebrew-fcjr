@@ -1,8 +1,8 @@
 # Template for the Grumble cask. release.yml fills in the version and sha256
 # from the built .dmg and pushes the result to fcjr/homebrew-fcjr.
 cask "grumble" do
-  version "0.1.6"
-  sha256 "731453a63724e44f4544c4132b86ec49e81e9d66f5647d1bfa4fa77d992b4185"
+  version "0.1.7"
+  sha256 "23549e8262a481d9ad2872ad93fe46db2bc403cae150a672fdfe2b9a001e76ab"
 
   url "https://github.com/fcjr/grumble/releases/download/v#{version}/Grumble-#{version}.dmg"
   name "Grumble"
