@@ -1,6 +1,6 @@
 cask "ventoy2disk-cli" do
-  version "0.1.1"
-  sha256 "b2753e84144460e89296e0e8e52955d229e2f93edc915495ded2718800750bc3"
+  version "0.1.2"
+  sha256 "4d586ae5b1ae495dc3e8e35c46fcdad7d8bba23aa4c4c92d048818d7189c140b"
 
   url "https://github.com/fcjr/ventoy-mac/releases/download/v#{version}/ventoy2disk-#{version}-macos.tar.gz"
   name "ventoy2disk"

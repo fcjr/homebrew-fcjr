@@ -1,13 +1,13 @@
 cask "ventoy2disk" do
-  version "0.1.1"
-  sha256 "3b164dfc09a1dd7c58bd0e034f97456ddc7719d40b33ce06ec06d36c54be7752"
+  version "0.1.2"
+  sha256 "d4deca0af3b1e58fbf7f53d6287a3df98af53651d053a454fcef065a7a0dab69"
 
   url "https://github.com/fcjr/ventoy-mac/releases/download/v#{version}/Ventoy2Disk-#{version}.zip"
   name "Ventoy2Disk"
   desc "Install Ventoy on a USB drive"
   homepage "https://github.com/fcjr/ventoy-mac"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Ventoy2Disk.app"
 
