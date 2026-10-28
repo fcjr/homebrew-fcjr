@@ -20,25 +20,25 @@ cask "restorekit-cli" do
     end
   end
 
-  version "0.5.13"
+  version "0.5.14"
 
   on_macos do
     on_arm do
-      sha256 "a65e839fd6bb8a5762b3783bec91f4979853238eb8a4e184f110314fe1abe69c"
+      sha256 "45bc0cf4107f832457c38eba49f45e4c73e7436aeed24e9be52010c10e3a8b64"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "667c83134f9395f733bd21ce52e45d6354d97ecf5343df53a41a032b83ef94dd"
+      sha256 "d88f82d6e8f855bbb8f7ce33437a1eb35854c1206dbaa275b71a665571ad23d1"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "678976a8a1b09d82ab8e7fea9a35d8210af04b6a8d75dc2312c2be0e234eb741"
+      sha256 "3d41557172ec025c6846b9978d80692684be8791764537b53139bf0b872cd122"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1b63fef82e36f3a05541edf77739ea84c848d2968fc2da1ee3a946f473ea53e4"
+      sha256 "7ce5c3bcdd1d4d043eda3e78da9e298cab0f9e6da215e178bb9e4ce7119cbf6a"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_linux_amd64.tar.gz"
     end
   end
@@ -53,8 +53,8 @@ cask "restorekit-cli" do
 
   binary "restorekit"
   bash_completion "completions/restorekit.bash"
-  fish_completion "completions/restorekit.fish"
   zsh_completion "completions/restorekit.zsh"
+  fish_completion "completions/restorekit.fish"
 
   zap delete: [
       "/etc/udev/rules.d/51-restorekit.rules",
