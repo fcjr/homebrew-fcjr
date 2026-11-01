@@ -1,6 +1,6 @@
 cask "ventoy2disk" do
-  version "0.1.2"
-  sha256 "d4deca0af3b1e58fbf7f53d6287a3df98af53651d053a454fcef065a7a0dab69"
+  version "0.1.3"
+  sha256 "001c846b112b506ad0ca5e4adccb2ce223617862b839a152ddd1c3ca3bbe0fdd"
 
   url "https://github.com/fcjr/ventoy-mac/releases/download/v#{version}/Ventoy2Disk-#{version}.zip"
   name "Ventoy2Disk"
