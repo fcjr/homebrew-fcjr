@@ -1,8 +1,8 @@
 # Template for the DK Link cask. release.yml fills in the version and sha256
 # from the notarized .dmg and pushes the result to fcjr/homebrew-fcjr.
 cask "dk-link" do
-  version "0.1.1"
-  sha256 "28a93c148f442f110c83a1681853873ef6efab79db8d118faa318535adbad1c4"
+  version "0.1.2"
+  sha256 "48c7672cb8e26fe9d7136750eee20c745f51eea0ec586615117c47d45509c5d0"
 
   url "https://github.com/fcjr/dk-link/releases/download/v#{version}/DK-Link-#{version}.dmg"
   name "DK Link"
