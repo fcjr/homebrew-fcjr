@@ -1,8 +1,8 @@
 # Template for the RestoreKit app cask. release-app.yml fills in the version and
 # sha256 from the built .dmg and pushes the result to fcjr/homebrew-fcjr.
 cask "restorekit" do
-  version "0.6.5"
-  sha256 "4ede4c11930fc7c359e93318a68167f074047df5fad97041730e6d1b952c53d7"
+  version "0.6.6"
+  sha256 "666fd241362e82bf6713c51f1c69c47712c9c2d77bd0c6255228a7397c52469b"
 
   url "https://github.com/fcjr/restorekit/releases/download/v#{version}/RestoreKit_#{version}_aarch64.dmg"
   name "RestoreKit"
