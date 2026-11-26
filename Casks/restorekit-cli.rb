@@ -20,25 +20,25 @@ cask "restorekit-cli" do
     end
   end
 
-  version "0.6.6"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      sha256 "841efcfc0d57493dbf06e1e83f4044c10529fc9b79505dc81a3bfaddb930a321"
+      sha256 "25f21bc0d5da7893bb2532f3a178736790befb3430806fa90c4bdc4f7d274a36"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "de2445d9c410b7967c229a7e6b3e8e054a0266308fd87e6ac35f17aaec7e4f3a"
+      sha256 "18c714eea958a8cfce0a0d361e31c4f3e6093262e2803d6546eea26ff1944d16"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6a3647e84e58c7395338bedf63baac9ada2c51c77c6a318c5a467f172bce5294"
+      sha256 "2803f9f2163627b94108573fe1b7c3693f29771659015c0c95858b83980d2904"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "384d10b4c1fa3d6234f9a5002b0d823aab7a3cc526cf54bd377d37b79e3c117e"
+      sha256 "048f3f2b07dff57ba1c210cb3a905b5fccedcb6a6e2321c14b0828122d84d259"
       url "https://github.com/fcjr/restorekit/releases/download/v#{version}/restorekit_#{version}_linux_amd64.tar.gz"
     end
   end
